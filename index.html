@@ -347,8 +347,124 @@
             margin-bottom: 15px;
         }
 
+        .school-offers {
+            background: #f8f9ff;
+            padding: 80px 20px;
+        }
+
+        .school-offers h2 {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 50px;
+            color: #667eea;
+        }
+
+        .school-content {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .school-content p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            color: #555;
+        }
+
+        .school-list {
+            text-align: left;
+            display: inline-block;
+            margin-bottom: 40px;
+        }
+
+        .school-list li {
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+
+        .contact-form {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .contact-form h3 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #667eea;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .form-group input,
+        .form-group select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+
+        .form-group input:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .popup {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0,0,0,0.4);
+        }
+
+        .popup-content {
+            background-color: #fefefe;
+            margin: 15% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+            max-width: 500px;
+            border-radius: 10px;
+            position: relative;
+        }
+
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+        }
+
         .implementation-section {
             background: #f8f9ff;
+            padding: 80px 40px;
+            max-width: none;
+            margin: 0;
         }
 
         .steps {
@@ -517,7 +633,7 @@
     <section class="trust-badges">
         <div class="badges-container">
             <div class="badge">Used in Head Start & Pre-K programs</div>
-            <div class="badge">Created by licensed clinician with 20+ years</div>
+            <div class="badge">Created by licensed clinician with 20+ years of Experience</div>
             <div class="badge">Designed for early intervention & SEL</div>
         </div>
     </section>
@@ -591,8 +707,8 @@
                 </div>
 
                  <div class="price-card">
-                    <h3>2-Book Set</h3>
-                    <div class="price">$29.99</div>
+                    <h3>Bundle and Save</h3>
+                    <div class="price">$32.99</div>
                     <div class="price-details">
                         Complete guide<br>
                         Mini-lessons included<br>
@@ -603,97 +719,71 @@
 
                 <div class="price-card featured">
                     <h3>Family Bundle</h3>
-                    <div class="price">$49</div>
+                    <div class="price">$45.99</div>
                     <div class="price-details">
                         2 Coloring Books<br>
                         1 Instructor's Guide<br>
                         Perfect for home use
                     </div>
-                                        <a href="#" class="btn btn-primary">Get Bundle</a>
-                </div>
-
-                <div class="price-card">
-                    <h3>Classroom Starter</h3>
-                    <div class="price">$171</div>
-                    <div class="price-details">
-                        10 Coloring Books<br>
-                        2 Instructor's Guides<br>
-                        For one classroom
-                    </div>
-                    <div class="savings">Save 10%</div>
-                    <a href="#" class="btn btn-primary">Get Bundle</a>
-                </div>
-
-                <div class="price-card">
-                    <h3>Counselor Toolkit</h3>
-                    <div class="price">$305.95</div>
-                    <div class="price-details">
-                        20 Coloring Books<br>
-                        3 Instructor's Guides<br>
-                        Ideal for caseloads
-                    </div>
-                    <div class="savings">Save 15%</div>
-                    <a href="#" class="btn btn-primary">Get Bundle</a>
-                </div>
-
-                <div class="price-card">
-                    <h3>School Package</h3>
-                    <div class="price">Contact Me</div>
-                    <div class="price-details">
-                        Coloring Books<br>
-                        Instructor's Guides<br>
-                        Full Classroom Bundles
-                    </div>
-                    <div class="savings">Save 30%</div>
-                    <a href="#" class="btn btn-primary">Get a Quote</a>
+                    <a href="#" class="btn btn-primary">Add to Cart</a>
                 </div>
             </div>
-            <p style="text-align: center; margin-top: 40px; font-size: 1.2em;">
-                Need custom quantities? <a href="#" style="color: #ffecd2; text-decoration: underline;">Request a purchase order or bulk quote</a>
-            </p>
         </div>
     </section>
 
     <section class="section implementation-section">
-        <h2>How to Implement in 10 Minutes/Week</h2>
-        <div class="steps">
-            <div class="step">
-                <div class="step-number">1</div>
-                <div>
-                    <h4>Choose a weekly focus</h4>
-                    <p>Pick an emotion like "happy," "sad," "frustrated," or "proud"</p>
-                </div>
+        <h2>Make SEL Simple and Impactful</h2>
+        <div class="two-column">
+            <div class="school-content">
+                <p>You don't need hours of planning just the right tools and guidance.</p>
+                <p>Our approach helps teachers weave social-emotional learning into everyday routines with ease and confidence.</p>
+                <p>Want to see how it works? Schedule a demo or professional development session today.</p>
+                <a href="#" class="btn btn-primary">Schedule a Demo</a>
             </div>
-            <div class="step">
-                <div class="step-number">2</div>
-                <div>
-                    <h4>Read the short prompt</h4>
-                    <p>Use the Instructor's Guide for easy conversation starters</p>
-                </div>
-            </div>
-            <div class="step">
-                <div class="step-number">3</div>
-                <div>
-                    <h4>Color & talk</h4>
-                    <p>"Which color matches your feeling right now?"</p>
-                </div>
-            </div>
-            <div class="step">
-                <div class="step-number">4</div>
-                <div>
-                    <h4>Practice a strategy</h4>
-                    <p>Belly breaths, count to 5, ask for help, stretch</p>
-                </div>
-            </div>
-            <div class="step">
-                <div class="step-number">5</div>
-                <div>
-                    <h4>Reflect</h4>
-                    <p>"What helped your body feel calmer?" Jot a quick note for tracking</p>
-                </div>
+            <div class="school-content">
+                <h3>Bring Social-Emotional Learning to Your Classrooms</h3>
+                <p>We offer flexible partnership options:</p>
+                <ul class="school-list">
+                    <li>Bulk orders of books and instructor guides</li>
+                    <li>On-site or virtual staff trainings</li>
+                    <li>Train-the-Trainer programs (Coming Soon)</li>
+                    <li>Annual licensing for school-wide implementation</li>
+                </ul>
+                <a href="#" onclick="openPopup()" class="btn btn-primary">Request a School Quote</a>
             </div>
         </div>
     </section>
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup()">&times;</span>
+            <h3>Request a School Quote</h3>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="organization">Organization</label>
+                    <input type="text" id="organization" name="organization" required>
+                </div>
+                <div class="form-group">
+                    <label for="students">Number of Students</label>
+                    <input type="number" id="students" name="students" required>
+                </div>
+                <div class="form-group">
+                    <label for="interest">Interest Area</label>
+                    <select id="interest" name="interest" required>
+                        <option value="">Select an option</option>
+                        <option value="Training">Training</option>
+                        <option value="Bulk Order">Bulk Order</option>
+                        <option value="License">License</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit Request</button>
+            </form>
+        </div>
+    </div>
 
     <section class="author-section">
         <div class="author-content">
@@ -715,6 +805,25 @@
             <a href="#" class="btn btn-secondary">Request Purchase Order</a>
         </div>
         <p style="margin-top: 40px; font-size: 1em; opacity: 0.9;">ISBN (print edition): 979-8-9921096-2-7</p>
+        <p style="font-size: 1em; opacity: 0.9;">Instructor's Guide: 979-8-9921096-3-4</p>
     </section>
+
+    <script>
+        function openPopup() {
+            document.getElementById('popup').style.display = 'block';
+        }
+
+        function closePopup() {
+            document.getElementById('popup').style.display = 'none';
+        }
+
+        // Close the popup when clicking outside of it
+        window.onclick = function(event) {
+            var popup = document.getElementById('popup');
+            if (event.target == popup) {
+                popup.style.display = 'none';
+            }
+        }
+    </script>
 </body>
 </html>
